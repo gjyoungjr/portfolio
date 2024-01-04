@@ -6,11 +6,11 @@ export default function Home() {
       <p className="font-semibold">gilbert young jr.</p>
       <p className="text-gray-600 mt-1">engineer</p>
 
-      <div className="mt-10 w-85">
+      <div className="mt-10 max-w-[40%]">
         <p>
-          senior backend engineer with 5+ years of industry experience. <br />a
-          fan of building in public and document life journey. based in belize
-          c.a
+          senior backend engineer with 4+ years of industry experience.
+          currently transitioning into artificial intelligence & machine
+          learning and a fan of building in public.
         </p>
       </div>
 
