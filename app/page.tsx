@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="mb-4">
       <p className="font-semibold">gilbert young jr.</p>
-      <p className="text-gray-600 mt-1">engineer</p>
+      <p className="text-gray-500 mt-1">engineer</p>
 
       <div className="mt-10 max-w-screen-sm">
         <p>
