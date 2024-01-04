@@ -1,4 +1,6 @@
+import Section from "@/components/section";
 import { ToggleTheme } from "@/components/toggle-theme";
+import { type SectionProps } from "@/components/section";
 
 export default function Home() {
   return (
@@ -15,82 +17,11 @@ export default function Home() {
       </div>
 
       <div className="mt-10">
-        <h1 className="text-3xl font-semibold mb-3">recent projects</h1>
-        <li className="text-gray-600 mt-1 list-none">
-          <a
-            href="https://github.com/gjyoungjr/chat_csv"
-            className="no-underline hover:underline"
-            target="_blank"
-          >
-            CSV Chat Agent — (July 2023)
-          </a>
-        </li>
-        <li className="text-gray-600 mt-1 list-none">
-          <a
-            href="https://github.com/gjyoungjr/stockx_sneaker_prices"
-            className="no-underline hover:underline"
-            target="_blank"
-          >
-            Stockx Price Predictor — (July 2023){" "}
-          </a>
-        </li>
-        <li className="text-gray-600 mt-1 list-none">
-          <a
-            href="https://twitter.com/iamsoleyman/status/1664663253723619331"
-            className="no-underline hover:underline"
-            target="_blank"
-          >
-            GraphixAi — (July 2023){" "}
-          </a>
-        </li>
-        <li className="text-gray-600 mt-1 list-none">
-          <a href="your-link-url-here" className="no-underline hover:underline">
-            Email Agent — (July 2023){" "}
-          </a>
-        </li>
+        <Section title={recentProjects.title} items={recentProjects.items} />
       </div>
 
       <div className="mt-10">
-        <h1 className="text-3xl font-semibold">articles</h1>
-      </div>
-      <div className="mt-10">
-        <h1 className="text-3xl font-semibold mb-3">links</h1>
-        <li className="text-gray-600 mt-1 list-none">
-          <a
-            href="https://twitter.com/gjyoungjr"
-            className="no-underline hover:underline"
-            target="_blank"
-          >
-            twitter
-          </a>
-        </li>
-        <li className="text-gray-600 mt-1 list-none">
-          <a
-            href="https://www.linkedin.com/in/gjyoungjr/"
-            className="no-underline hover:underline"
-            target="_blank"
-          >
-            linkedin
-          </a>
-        </li>
-        <li className="text-gray-600 mt-1 list-none">
-          <a
-            href="https://github.com/gjyoungjr"
-            className="no-underline hover:underline"
-            target="_blank"
-          >
-            github
-          </a>
-        </li>
-        <li className="text-gray-600 mt-1 list-none">
-          <a
-            href="mailto:gilbertjyoungjr@gmail.com"
-            className="no-underline hover:underline"
-            target="_blank"
-          >
-            gilbertjyoungjr@gmail.com
-          </a>
-        </li>
+        <Section title={socialLinks.title} items={socialLinks.items} />
       </div>
 
       <div className="fixed bottom-4 right-4">
@@ -99,3 +30,47 @@ export default function Home() {
     </main>
   );
 }
+
+const socialLinks: SectionProps = {
+  title: "links",
+  items: [
+    {
+      title: "twitter",
+      url: "https://twitter.com/gjyoungjr",
+    },
+    {
+      title: "linkedin",
+      url: "https://www.linkedin.com/in/gjyoungjr/",
+    },
+    {
+      title: "github",
+      url: "https://github.com/gjyoungjr",
+    },
+    {
+      title: "gilbertjyoungjr@gmail.com",
+      url: "gilbertjyoungjr@gmail.com",
+    },
+  ],
+};
+
+const recentProjects: SectionProps = {
+  title: "recent projects",
+  items: [
+    {
+      title: "Email Agent — (Building...)",
+      url: "#",
+    },
+    {
+      title: "CSV Chat Agent — (Dec 2023)",
+      url: "https://github.com/gjyoungjr/chat_csv",
+    },
+    {
+      title: "GraphixAi — (Aug 2023)",
+      url: "https://twitter.com/iamsoleyman/status/1664663253723619331",
+    },
+    {
+      title: "Stockx Price Predictor — (Dec 2022)",
+      url: "https://github.com/gjyoungjr/stockx_sneaker_prices",
+    },
+  ],
+};
