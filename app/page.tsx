@@ -4,11 +4,11 @@ import { type SectionProps } from "@/components/section";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="mb-4">
       <p className="font-semibold">gilbert young jr.</p>
       <p className="text-gray-600 mt-1">engineer</p>
 
-      <div className="mt-10 max-w-[40%]">
+      <div className="mt-10 max-w-screen-sm">
         <p>
           senior backend engineer with 4+ years of industry experience.
           currently transitioning into artificial intelligence & machine
