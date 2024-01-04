@@ -43,6 +43,10 @@ const socialLinks: SectionProps = {
       url: "https://www.linkedin.com/in/gjyoungjr/",
     },
     {
+      title: "instagram",
+      url: "https://www.instagram.com/gjyoungjr/",
+    },
+    {
       title: "github",
       url: "https://github.com/gjyoungjr",
     },
