@@ -10,9 +10,9 @@ export default function Home() {
 
       <div className="mt-10 max-w-screen-sm">
         <p>
-          senior backend engineer with 4+ years of industry experience.
-          currently transitioning into artificial intelligence & machine
-          learning and a fan of building in public.
+          senior backend engineer with 4+ years in the industry, casually
+          dabbling in AI research on the side. big on building in public and
+          contributing to open source projects.
         </p>
       </div>
 
