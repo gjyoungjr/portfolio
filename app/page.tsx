@@ -1,5 +1,4 @@
 import Section from "@/components/section";
-import { ToggleTheme } from "@/components/toggle-theme";
 import { type SectionProps } from "@/components/section";
 
 export default function Home() {
@@ -10,12 +9,14 @@ export default function Home() {
 
       <div className="mt-10 max-w-screen-sm">
         <p>
-          senior backend engineer with 4+ years in the industry, casually
-          dabbling in AI research on the side. big on building in public and
-          contributing to open source projects.
+          senior backend engineer with 4+ years of industry experience. bullish
+          about climate tech, building in public and the future of AI.
         </p>
       </div>
 
+      <div className="mt-10">
+        <Section title={BLOGS.title} items={BLOGS.items} />
+      </div>
       <div className="mt-10">
         <Section title={recentProjects.title} items={recentProjects.items} />
       </div>
@@ -23,13 +24,19 @@ export default function Home() {
       <div className="mt-10">
         <Section title={socialLinks.title} items={socialLinks.items} />
       </div>
-
-      <div className="fixed bottom-4 right-4">
-        <ToggleTheme />
-      </div>
     </main>
   );
 }
+
+const BLOGS = {
+  title: "blogs",
+  items: [
+    {
+      title: `Why I'm pivoting to Climate Tech`,
+      url: "/blog",
+    },
+  ],
+};
 
 const socialLinks: SectionProps = {
   title: "links",
