@@ -16,7 +16,7 @@ export default function Section({ title, items }: SectionProps) {
           <a
             href={item.url.includes("@") ? `mailto:${item.url}` : item.url}
             className="no-underline hover:underline"
-            target="_blank"
+            target={item.url.includes("https") ? "_blank" : undefined}
           >
             {item.title}
           </a>
