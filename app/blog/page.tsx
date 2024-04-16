@@ -12,7 +12,7 @@ export default function Blog() {
         </Link>
       </div>
       <h1 className="text-6xl font-extrabold">
-        Why I'm Pivoting to Climate Tech
+        Why I &apos;m Pivoting to Climate Tech
       </h1>
 
       <p className="text-muted-foreground text-sm mt-5 text-left">
@@ -21,13 +21,12 @@ export default function Blog() {
 
       <div className=" mt-5">
         <p>
-          For the past 3 to 5 years, I've worked in different industries as a
-          software engineer, including media, hospitality, and consumer goods.
-          However, I've never felt like I'm using my technical skills to truly
-          make a difference or improve the world. My curiosity has led me to
-          discover a new passion: finding sustainable solutions to address
-          climate change and reduce environmental impact. I believe innovation
-          in this industry is lacking for a few key reasons
+          For the past 3 to 5 years, I&apos;ve worked in different industries as
+          a software engineer, including media, hospitality, and consumer goods.
+          However, I&apos;ve never felt like I&apos;m using my technical skills
+          to truly make a difference or improve the world. My curiosity has led
+          me to discover a new passion: finding sustainable solutions to address
+          climate change and reduce environmental impact.
         </p>
       </div>
       <div>
@@ -43,16 +42,16 @@ export default function Blog() {
           </li>
           <li className="pl-4 mb-2 relative">
             <div className="absolute left-0 top-0 -ml-1 mt-3 w-3 h-0.5 bg-primary" />
-            Many believe it's impossible to achieve negative or net-zero
-            emissions before 2050, so they don't bother trying to solve the
+            Many believe it is impossible to achieve negative or net-zero
+            emissions before 2050, so they do not bother trying to solve the
             problem.
           </li>
         </ul>
         <p className="mt-4 mb-4">
-          Many people don't realize how serious climate change is, even if we
+          Many people do not realize how serious climate change is, even if we
           only achieve a 20% solution or if only a few countries cut emissions.
           To fully solve climate change, we need both government regulations and
-          new technology to work together. Here's why:
+          new technology to work together. Here&apos;s why:
         </p>
         <ul className="list-inside">
           <li className="pl-4 mb-2 relative">
@@ -73,23 +72,23 @@ export default function Blog() {
           <li className="pl-4 mb-2 relative">
             <div className="absolute left-0 top-0 -ml-1 mt-3 w-3 h-0.5 bg-primary" />
             Cheaper technology can be used all over the world, but some
-            regulations can't be applied everywhere. <br />
+            regulations cannot be applied everywhere. <br />
             (For instance, telling a small country in Central America or the
-            Caribbean to halt oil exploration isn’t viable, as this activity
-            contributes significantly to the country's economic growth.)
+            Caribbean to halt oil exploration is not viable, as this activity
+            contributes significantly to the country&apos;s economic growth.)
           </li>
         </ul>
         <p className="mt-4">
-          Reflecting on these challenges, I've felt a strong personal drive to
+          Reflecting on these challenges, I have felt a strong personal drive to
           take action. Experiencing the direct impacts of climate change,
           especially through prolonged heat waves in Belize, has made me bullish
-          about diving into climate tech. As a result, I've been actively
+          about diving into climate tech. As a result, I have been actively
           hacking and researching on side projects. Among these, the most
           promising idea is an AI tool that transforms ESG data into actionable
           insights. The aim is to empower individuals and companies to collect
           and analyze their ESG data, enabling data-driven decisions for a
-          cleaner, better future. If you're interested, feel free to sign up for
-          the waitlist!!
+          cleaner, better future. If you are interested, feel free to sign up
+          for the waitlist!!
         </p>
       </div>
     </div>
