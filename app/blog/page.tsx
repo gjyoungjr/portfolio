@@ -15,7 +15,7 @@ export default function Blog() {
 
       {/* Title */}
       <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold">
-        Why I'm Pivoting to Climate Tech
+        Why I&apos;m Pivoting to Climate Tech
       </h1>
 
       {/* Date */}
