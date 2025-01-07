@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="mt-5 max-w-screen-sm">
         <p>
-          i&aposm a software engineer who&aposs bullish about climate tech,
+          i&apos;m a software engineer who&apos;s bullish about climate tech,
           building in public and the future of AI/ML.
         </p>
       </div>
