@@ -7,10 +7,10 @@ export default function Home() {
       <p className="font-semibold">gilbert young jr.</p>
       <p className="text-gray-500 mt-1">engineer</p>
 
-      <div className="mt-10 max-w-screen-sm">
+      <div className="mt-5 max-w-screen-sm">
         <p>
-          senior backend engineer with 4+ years of industry experience. bullish
-          about climate tech, building in public and the future of AI.
+          i'm a software engineer who's bullish about climate tech, building in
+          public and the future of AI/ML.
         </p>
       </div>
 
@@ -29,7 +29,7 @@ export default function Home() {
 }
 
 const BLOGS = {
-  title: "blogs",
+  title: "blog",
   items: [
     {
       title: `Why I'm pivoting to Climate Tech`,
@@ -65,7 +65,7 @@ const socialLinks: SectionProps = {
 };
 
 const recentProjects: SectionProps = {
-  title: "recent projects",
+  title: "projects",
   items: [
     {
       title: "Email Agent — (Building...)",
