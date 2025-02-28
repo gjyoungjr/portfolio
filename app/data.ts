@@ -68,21 +68,21 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const BLOG_POSTS: BlogPost[] = [
   {
     title: "Contract Engineers: The Underdogs of Tech",
-    description: "Engineers are the backbone of tech.",
+    description: "March 3rd, 2025",
     link: "/blog/contract-engineers",
     uid: "blog-1",
   },
   {
     title: "Reducing LLM Hallucinations with Knowledge Graphs",
-    description: "Knowledge graphs improve AI reasoning.",
+    description: "Febaury 3rd, 2025",
     link: "/blog/knowledge-graphs",
     uid: "blog-2",
   },
   {
-    title: "Generative AI: What is it and why you should care?",
-    description: "Gen AI: Learn & Adapt",
-    link: "/blog/gen-ai",
-    uid: "blog-3",
+    title: "MindsDB - FinTech Hackathon",
+    description: "January 29th, 2024",
+    link: "/blog/mindsdb-fintech-hackathon",
+    uid: "blog-4",
   },
 ];
 

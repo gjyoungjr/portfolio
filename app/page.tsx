@@ -69,6 +69,7 @@ function ProjectVideo({ src }: ProjectVideoProps) {
             loop
             muted
             className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]"
+            controls
           />
         </MorphingDialogContent>
         <MorphingDialogClose
