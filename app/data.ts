@@ -67,6 +67,12 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    title: "Contract Engineers: The Underdogs of Tech",
+    description: "Engineers are the backbone of tech.",
+    link: "/blog/contract-engineers",
+    uid: "blog-1",
+  },
+  {
     title: "Reducing LLM Hallucinations with Knowledge Graphs",
     description: "Knowledge graphs improve AI reasoning.",
     link: "/blog/knowledge-graphs",
