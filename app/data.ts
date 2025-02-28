@@ -67,8 +67,14 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    title: "Reducing LLM Hallucinations with Knowledge Graphs",
+    description: "Knowledge graphs improve AI reasoning.",
+    link: "/blog/knowledge-graphs",
+    uid: "blog-2",
+  },
+  {
     title: "Generative AI: What is it and why you should care?",
-    description: "Generative AI: What is it and why you should care?",
+    description: "Gen AI: Learn & Adapt",
     link: "/blog/gen-ai",
     uid: "blog-3",
   },
