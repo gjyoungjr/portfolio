@@ -73,12 +73,6 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: "blog-1",
   },
   {
-    title: "Reducing LLM Hallucinations with Knowledge Graphs",
-    description: "Febaury 3rd, 2025",
-    link: "/blog/knowledge-graphs",
-    uid: "blog-2",
-  },
-  {
     title: "MindsDB - FinTech Hackathon",
     description: "January 29th, 2024",
     link: "/blog/mindsdb-fintech-hackathon",
