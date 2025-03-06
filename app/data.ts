@@ -40,6 +40,14 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
+    company: "Serverless Guru",
+    title: "Senior Backend Engineer - Contractor",
+    start: "Jan 2022",
+    end: "Feb 2024",
+    link: "https://www.serverlessguru.com/",
+    id: "work3",
+  },
+  {
     company: "Hyatt Hotels Corporation",
     title: "Senior Software Engineer, Data",
     start: "July 2023",
@@ -54,14 +62,6 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     end: "Jun 2023",
     link: "https://techcrunch.com/2022/11/28/post-news-twitter-alternative-a16z/",
     id: "work2",
-  },
-  {
-    company: "Serverless Guru",
-    title: "Senior Backend Engineer - Contractor",
-    start: "Jan 2022",
-    end: "Feb 2023",
-    link: "https://www.serverlessguru.com/",
-    id: "work3",
   },
 ];
 
