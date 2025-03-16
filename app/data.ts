@@ -29,18 +29,11 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: "ReleefAI",
-    description: "AI native compliance for sustainability reports.",
-    link: "https://releef-ai.vercel.app/",
-    video: "#",
-    id: "project2",
-  },
-  {
-    name: "Farmsight",
-    description: "AI supply chain risk assessment for farmers.",
+    name: "YC Search",
+    description: "A semantic search engine over YCombinator job listing.",
     link: "#",
     video: "#",
-    id: "project1",
+    id: "project2",
   },
 ];
 
