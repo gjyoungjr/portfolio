@@ -138,16 +138,10 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            I'm an engineer who's bullish about AI/ML. Previously, I was at
-            Hyatt Hotels on the data platform team. Now in{" "}
-            <a
-              className="underline dark:text-zinc-300"
-              href="https://paulgraham.com/foundermode.html"
-              target="_blank"
-            >
-              founder mode
-            </a>
-            , focused on building and shipping AI products that matter.
+            I'm an engineer who's bullish about the future AI/ML. Previously, I
+            was at Hyatt Hotels on the data platform team. Now diving into AI
+            for agriculture. I'm in the arena—constantly trying stuff. Some will
+            work, some won’t. But always learning.
           </p>
         </div>
       </motion.section>
