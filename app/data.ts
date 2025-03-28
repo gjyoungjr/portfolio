@@ -29,7 +29,7 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: "YC Search",
+    name: "YC Job Search",
     description: "A semantic search engine over YCombinator job listing.",
     link: "#",
     video: "#",

@@ -138,10 +138,11 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            I'm an engineer who's bullish about the future AI/ML. Previously, I
-            was at Hyatt Hotels on the data platform team. Now diving into AI
-            for agriculture. I'm in the arena—constantly trying stuff. Some will
-            work, some won’t. But always learning.
+            I'm an engineer with a deep focus on AI & ML. Previously, I was on
+            the data platform team at Hyatt Hotels. Now, I'm building and
+            researching applied AI products for agriculture. I'm in the
+            arena—constantly experimenting. Some things will work, some won’t.
+            But I'm always learning.
           </p>
         </div>
       </motion.section>
