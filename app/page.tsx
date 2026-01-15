@@ -1,23 +1,23 @@
 "use client";
-import { motion } from "motion/react";
-import { XIcon } from "lucide-react";
-import { Spotlight } from "@/components/ui/spotlight";
+import { AnimatedBackground } from "@/components/ui/animated-background";
 import { Magnetic } from "@/components/ui/magnetic";
 import {
   MorphingDialog,
-  MorphingDialogTrigger,
-  MorphingDialogContent,
   MorphingDialogClose,
   MorphingDialogContainer,
+  MorphingDialogContent,
+  MorphingDialogTrigger,
 } from "@/components/ui/morphing-dialog";
+import { Spotlight } from "@/components/ui/spotlight";
+import { XIcon } from "lucide-react";
+import { motion } from "motion/react";
 import Link from "next/link";
-import { AnimatedBackground } from "@/components/ui/animated-background";
 import {
-  PROJECTS,
-  WORK_EXPERIENCE,
   BLOG_POSTS,
   EMAIL,
+  PROJECTS,
   SOCIAL_LINKS,
+  WORK_EXPERIENCE,
 } from "./data";
 
 const VARIANTS_CONTAINER = {
@@ -138,11 +138,10 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            I'm an engineer with a deep focus on AI & ML. Previously, I was on
-            the data platform team at Hyatt Hotels. Now, I'm building and
-            researching applied AI products for agriculture. I'm in the
-            arena—constantly experimenting. Some things will work, some won’t.
-            But I'm always learning.
+            I'm a scrappy engineer with a deep focus on AI & ML. I'm building
+            and researching applied AI products for sustainable agriculture. I'm
+            in the arena—constantly experimenting. Some things will work, some
+            won’t. But I'm always learning.
           </p>
         </div>
       </motion.section>
