@@ -29,6 +29,14 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
+    name: "Obsidian Agent",
+    description:
+      "An AI agent for your Obsidian vault that delivers weekly reviews, personalized insights, and recommendations based on your daily notes and actions.",
+    link: "https://github.com/gjyoungjr/obsidian_agent",
+    video: "#",
+    id: "project1",
+  },
+  {
     name: "YC Job Search",
     description: "A semantic search engine over YCombinator job listing.",
     link: "#",
@@ -39,20 +47,29 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: "Serverless Guru",
-    title: "Senior Backend Engineer - Contractor",
-    start: "Jan 2022",
-    end: "Feb 2024",
-    link: "https://www.serverlessguru.com/",
-    id: "work3",
+    company: "StudyTech AI",
+    title: "AI Engineer - Founding Team",
+    start: "Aug 2025",
+    end: "Dec 2025",
+    link: "https://www.studytech.ai/",
+    id: "work1",
   },
+  {
+    company: "Nextrial",
+    title: "AI Engineer - Contractor",
+    start: "Jan 2025",
+    end: "Jul 2025",
+    link: "https://www.nextrial.ai/en",
+    id: "work2",
+  },
+
   {
     company: "Hyatt Hotels Corporation",
     title: "Senior Software Engineer, Data",
     start: "July 2023",
     end: "Dec 2024",
     link: "https://www.hyatt.com/",
-    id: "work1",
+    id: "work4",
   },
   {
     company: "Post News",
@@ -60,7 +77,15 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     start: "Dec 2022",
     end: "Jun 2023",
     link: "https://techcrunch.com/2022/11/28/post-news-twitter-alternative-a16z/",
-    id: "work2",
+    id: "work5",
+  },
+  {
+    company: "Serverless Guru",
+    title: "Senior Backend Engineer - Contractor",
+    start: "Dec 2022",
+    end: "Dec 2024",
+    link: "https://www.serverlessguru.com/",
+    id: "work3",
   },
 ];
 
