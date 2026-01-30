@@ -81,7 +81,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
   {
     company: "Serverless Guru",
-    title: "Senior Backend Engineer - Contractor",
+    title: "Senior Backend Engineer (AWS) - Contractor",
     start: "Dec 2022",
     end: "Dec 2024",
     link: "https://www.serverlessguru.com/",
@@ -92,7 +92,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const BLOG_POSTS: BlogPost[] = [
   {
     title: "Contract Engineers: The Underdogs of Tech",
-    description: "March 3rd, 2025",
+    description: "December 30th, 2025",
     link: "/blog/contract-engineers",
     uid: "blog-1",
   },
