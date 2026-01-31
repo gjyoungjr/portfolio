@@ -91,16 +91,22 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    title: "I Have the Urge to Build. No Idea What Though",
+    description: "January 30th, 2026",
+    link: "/blog/startup-ideas",
+    uid: "blog-1",
+  },
+  {
     title: "Contract Engineers: The Underdogs of Tech",
     description: "December 30th, 2025",
     link: "/blog/contract-engineers",
-    uid: "blog-1",
+    uid: "blog-2",
   },
   {
     title: "MindsDB - FinTech Hackathon",
     description: "January 29th, 2024",
     link: "/blog/mindsdb-fintech-hackathon",
-    uid: "blog-4",
+    uid: "blog-3",
   },
 ];
 
