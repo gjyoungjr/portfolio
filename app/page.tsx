@@ -58,7 +58,7 @@ function ProjectVideo({ src }: ProjectVideoProps) {
           autoPlay
           loop
           muted
-          className="aspect-video w-full cursor-zoom-in rounded-xl"
+          className="aspect-video w-full cursor-zoom-in rounded-xl object-cover"
         />
       </MorphingDialogTrigger>
       <MorphingDialogContainer>
@@ -68,7 +68,7 @@ function ProjectVideo({ src }: ProjectVideoProps) {
             autoPlay
             loop
             muted
-            className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]"
+            className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh] object-cover"
             controls
           />
         </MorphingDialogContent>
@@ -159,12 +159,13 @@ export default function Personal() {
               </div>
               <div className="px-1">
                 <a
-                  className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
+                  className="font-base group relative inline-flex items-center gap-1 font-[450] text-zinc-900 dark:text-zinc-50"
                   href={project.link}
                   target="_blank"
                 >
                   {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full"></span>
+                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
+                  <span className="text-zinc-400 dark:text-zinc-500">↗</span>
                 </a>
                 <p className="text-base text-zinc-600 dark:text-zinc-400">
                   {project.description}
