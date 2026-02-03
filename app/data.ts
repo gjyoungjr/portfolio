@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     description:
       "An AI agent for your Obsidian vault that delivers weekly reviews, personalized insights, and recommendations based on your daily notes and actions.",
     link: "https://github.com/gjyoungjr/obsidian_agent",
-    video: "https://www.loom.com/share/4f23e59a529f4e5a8535dd508238b3d4",
+    video: "/obsidian_agent.mov",
     id: "project1",
   },
   {
